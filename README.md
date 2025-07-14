@@ -28,3 +28,9 @@ Note:
 1. Ayaw e include ang total profit
 2. Ang Users Data Table Column Name: No., Username, Email, Status, Created At
 
+Unsaon pag fork:
+Fork --> Create fork --> copy URL to clone --> open visual studio --> clone git repository --> paste URL --> create new branch --> publish branch (choose the upstream)
+
+If naa nay nabuhat:
+
+Commit and create pull request
