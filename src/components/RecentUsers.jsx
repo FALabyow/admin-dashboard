@@ -1,9 +1,27 @@
-import React from 'react'
+import React from "react";
 
-function RecentUsers() {
+const users = [
+  { name: "John Doe", email: "john@example.com" },
+  { name: "Jane Smith", email: "jane@example.com" },
+  { name: "Michael Johnson", email: "michael@ampil.com" },
+  { name: "Emily Brown", email: "emily@example.com" },
+  { name: "William Davis", email: "william@example.com" },
+];
+
+const RecentUsers = () => {
   return (
-    <div>RecentUsers</div>
-  )
-}
+    <div className="bg-white shadow-md rounded-2xl p-4">
+      <h2 className="font-semibold mb-3">Recent Users</h2>
+      <ul>
+        {users.map((user, i) => (
+          <li key={i} className="flex justify-between py-2 border-b last:border-none">
+            <span>{user.name}</span>
+            <span className="text-gray-500">{user.email}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
-export default RecentUsers
+export default RecentUsers;
