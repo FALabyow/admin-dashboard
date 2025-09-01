@@ -2,11 +2,18 @@ import React from "react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 
 const data = [
-  { name: "Jan", users: 400 },
-  { name: "Feb", users: 300 },
-  { name: "Mar", users: 500 },
-  { name: "Apr", users: 350 },
-  { name: "May", users: 600 },
+  { name: "Jan", users: 2 },
+  { name: "Feb", users: 4 },
+  { name: "Mar", users: 6 },
+  { name: "Apr", users: 8 },
+  { name: "May", users: 10 },
+  { name: "Jun", users: 12 },
+  { name: "Jul", users: 14 },
+  { name: "Aug", users: 16 },
+  { name: "Sep", users: 18 },
+  { name: "Oct", users: 20 },
+  { name: "Nov", users: 22 },
+  { name: "Dec", users: 24 },
 ];
 
 const UserActivity = () => {

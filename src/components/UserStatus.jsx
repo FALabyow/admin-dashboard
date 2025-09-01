@@ -5,7 +5,7 @@ const UserStatus = () => {
     <div className="grid grid-cols-3 gap-4 mt-6">
       <div className="bg-white shadow-md rounded-2xl p-4 text-center">
         <h2 className="text-gray-600 text-sm">Total Users</h2>
-        <p className="text-2xl font-bold text-[#BB9672]">1,250</p>
+        <p className="text-2xl font-bold text-[#BB9672]">20</p>
       </div>
       <div className="bg-white shadow-md rounded-2xl p-4 text-center">
         <h2 className="text-gray-600 text-sm">Active Users</h2>

@@ -7,9 +7,9 @@ import avatar from "../assets/avatar.png";
 
 const Profile = () => {
   return (
-    <div className="p-6 space-y-6">
+    <div className="p-6 space-y-6 max-h-full max-w-full overflow-auto">
       {/* Header */}
-      <div className="flex justify-between items-center bg-white p-4 shadow rounded-2xl">
+      <div className="flex justify-between items-center bg-white p-4 shadow rounded-2xl w-full">
         <h1 className="text-xl font-bold text-[#4f3e2d]">User Dashboard</h1>
         <div className="flex items-center space-x-2">
           <span className="font-medium">Admin</span>
@@ -22,16 +22,24 @@ const Profile = () => {
       </div>
 
       {/* Stats row */}
-      <UserStatus />
+      <div className="w-full h-full">
+        <UserStatus />
+      </div>
 
       {/* Activity + Recent Users */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <UserActivity />
-        <RecentUsers />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+        <div className="w-full h-full">
+          <UserActivity />
+        </div>
+        <div className="w-full h-full">
+          <RecentUsers />
+        </div>
       </div>
 
       {/* Data Table */}
-      <UsersDataTable />
+      <div className="w-full h-full">
+        <UsersDataTable />
+      </div>
     </div>
   );
 };

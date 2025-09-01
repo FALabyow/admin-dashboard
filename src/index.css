@@ -282,4 +282,20 @@ main p {
   background-color: var(--base-clr);
 }
 
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 }
