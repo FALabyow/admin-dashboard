@@ -13,7 +13,7 @@ const UserStatus = () => {
       </div>
       <div className="bg-white shadow-md rounded-2xl p-4 text-center">
         <h2 className="text-gray-600 text-sm">Inactive Users</h2>
-        <p className="text-2xl font-bold text-[#8D6944]">3</p>
+        <p className="text-2xl font-bold text-[#8D6944]">7</p>
       </div>
     </div>
   );
